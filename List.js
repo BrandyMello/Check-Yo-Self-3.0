@@ -1,5 +1,9 @@
 class List {
-    constructor(list) {
-        id = list.id
+    constructor(listObj) {
+        this.id = listObj.id;
+        this.title = listObj.title;
+        this.list = listObj.list;
     }
+
+    // console.log(this)
 }

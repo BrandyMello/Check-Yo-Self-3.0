@@ -80,6 +80,7 @@ h3 {
     padding: 15px;
 }
 
+.post-list-item,
 .list-item {
     color: rgba(43, 45, 66, 1);
     list-style: none;
@@ -88,4 +89,9 @@ h3 {
 
 .header_checklist-title {
   font-size: 1.5em;
+}
+
+.delete-img {
+    height: 20px;
+    width: 20px;
 }
