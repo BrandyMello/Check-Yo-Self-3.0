@@ -4,6 +4,4 @@ class List {
         this.title = listObj.title;
         this.list = listObj.list;
     }
-
-    // console.log(this)
 }

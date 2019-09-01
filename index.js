@@ -27,9 +27,11 @@ function addListTitle() {
 
 function clearFields() {
     let putTitle = document.querySelector('.header_checklist-title');
-    let checklistItems = document.querySelectorAll('.list-item');
+    // let checklistItems = document.querySelector('.list-item');
+    var headerChecklist = document.querySelector('.header_checklist');
     putTitle.innerHTML = '';
-    console.log(checklistItems);
+    // console.log(checklistItems)
+    while(headerChecklist.firstChild) headerChecklist.removeChild(headerChecklist.firstChild);
 }
 
 function deleteItem(e) {
