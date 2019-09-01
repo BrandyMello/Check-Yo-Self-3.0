@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Check Yo Self</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato|Shadows+Into+Light+Two&display=swap" rel="stylesheet">
-      </head>
-</html>
-<body>
+  <head>
+    <title>Check Yo Self</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+  </head>
+  <body>
     <header>
-        <h1>shopDrop</h1>
-        <p class="subtitle">for all your Checklists</p>
-        <form class="list-form">
-            <label class="label" for="title-input">Shopping List Title</label>
-            <input type="text" class="title-input" placeholder="List title here..." name="title-input">
-            <label class="label" for="item-input">Shopping List Title</label>
-            <input type="text" class="item-input" placeholder="List item here..." name="item-input">
-            <button class="add-item">Add Item</button>
-            <button class="submit-list">Add List</button> 
-        </form>
+      <h1>shopDrop</h1>
+      <p class="subtitle">A place for all your Checklists</p>
+      <form class="list-form">
+        <label class="label" for="title-input">Shopping List Title</label>
+        <input type="text" class="title-input" placeholder="List title here..." name="title-input">
+        <label class="label" for="item-input">Shopping List Title</label>
+        <input type="text" class="item-input" placeholder="List item here..." name="item-input">
+        <button class="add-item-btn">Add Item</button>
+        <button class="submit-list-btn">Add List</button> 
+      </form>
+      <ul class="header_checklist">
+          <span class="header_checklist-title"></span>
+      </ul>
     </header>
     <main>
       <section class="display">
@@ -28,5 +30,7 @@
         </article>
       </section>
     </main>
-
-</body>
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="List.js"></script>
+</html>
